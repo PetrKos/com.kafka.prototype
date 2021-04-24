@@ -25,7 +25,6 @@ public class ProducerDemo {
         //send data - asynchronous
         producer.send(record);
 
-        //flush data
         producer.flush();
         //flush and close producer
         producer.close();
